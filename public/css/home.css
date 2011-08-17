@@ -1,0 +1,43 @@
+.product-list {
+	display			: block;
+	width			: 900px;
+}
+
+.product-list li {
+	display			: block;
+	float			: left;
+	width			: 190px;
+	padding			: 5px;
+	background		: #EAEAEA;
+	border-radius	: 4px;
+	border			: 1px solid #DEDEDE;
+	margin			: 0px 5px;
+}
+
+.product-list dt {
+	font-weight		: bold;
+	text-align		: center;
+}
+
+.product-list dd.description {
+	color			: #666;
+	font-size		: 0.8em;
+	text-align		: center;
+	margin-bottom	: 4px;
+	width			: 200px;
+	overflow		: hidden;
+}
+
+.product-list dd.price {
+	text-align		: center;
+}
+
+.product-list li a.buy-button {
+	display			: block;
+	padding			: 4px;
+	background		: #3333FF;
+	margin			: 4px 0px 0px;
+	text-align		: center;
+	color			: #FFF;
+	border-radius	: 4px;
+}

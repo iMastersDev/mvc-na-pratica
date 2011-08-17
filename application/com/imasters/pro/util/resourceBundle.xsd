@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:pro="urn:iMasters/pro"
+	targetNamespace="urn:iMasters/pro"
+	elementFormDefault="qualified">
+	
+	<xsd:element name="resource" type="pro:Resource" />
+	
+	<xsd:complexType name="Resource">
+		<xsd:sequence>
+			<xsd:element name="resource" type="pro:Resource" minOccurs="0" maxOccurs="unbounded" />
+		</xsd:sequence>
+		<xsd:attribute name="id" type="xsd:ID" use="required" />
+		<xsd:attribute name="value" type="xsd:anySimpleType" />
+	</xsd:complexType>
+</xsd:schema>

@@ -1,0 +1,75 @@
+.cart-list li {
+	display			: block;
+	height			: 86px;
+	width			: 884px;
+	clear			: both;
+	margin-top		: 4px;
+	padding			: 8px;
+}
+
+.cart-list li.alt {
+	background		: #FDFDFD;
+}
+
+.cart-list li img, .cart-list li label, .cart-list li span.name, .cart-list li span.desc {
+	display			: block;
+	float			: left;
+}
+
+.cart-list li span.name, .cart-list li span.desc {
+	width			: 200px;
+	height			: 20px;
+	line-height		: 20px;
+}
+
+.cart-list li span.name {
+}
+
+.cart-list li span.desc {
+	margin			: 20px 0px 0px -200px;
+}
+
+.cart-list li label {
+	width			: 200px;
+}
+
+.cart-list li label input {
+	display			: block;
+	width			: 50px;
+}
+
+.cart-list li span.price, .cart-list li span.total {
+	display			: block;
+	float			: left;
+	width			: 134px;
+}
+
+.cart-total {
+	display			: block;
+	margin-top		: 10px;
+}
+
+.cart-total strong, .cart-total span {
+	display			: block;
+	padding			: 4px;
+	float			: left;
+	width			: 100px;
+}
+
+.cart-total strong {
+	text-align		: right;
+	margin-right	: 4px;
+	margin-left		: 680px;
+	background		: #DADADA;
+}
+
+.cart-total .checkout {
+	display			: block;
+	float			: right;
+	padding			: 4px;
+	width			: 212px;
+	height			: 19px;
+	line-height		: 19px;
+	background		: #DADADA;
+	text-align		: center;
+}

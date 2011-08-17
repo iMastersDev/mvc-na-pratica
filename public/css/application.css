@@ -1,0 +1,64 @@
+*, html {
+	margin			: 0px;
+	padding			: 0px;
+	font-size		: 1em;
+	font-family		: sans-serif;
+	text-decoration	: none;
+	list-style		: none;
+}
+
+h1 {
+	display			: block;
+	float			: left;
+	padding			: 4px 4px 4px 0px;
+	width			: 44px;
+	height			: 27px;
+	line-height		: 27px;
+}
+
+h2 {
+	font-size		: 1.5em;
+	margin-bottom	: 0.2em;
+}
+
+#application {
+	display			: block;
+	width			: 900px;
+	margin			: 10px auto 0px;
+}
+
+#top {
+	display			: block;
+	width			: 880px;
+	height			: 35px;
+	padding			: 10px;
+	background		: #DADADA;
+	box-shadow		: 0 1px 3px #0B424C inset;
+	border-radius	: 4px;
+}
+
+#menu {
+	display			: block;
+	float			: left;
+	padding			: 4px 0px;
+	height			: 27px;
+	width			: 832px;
+}
+
+#menu li.menu-item {
+	display			: block;
+	float			: left;
+	padding			: 0px 4px;
+	height			: 27px;
+}
+
+#menu li.menu-item a {
+	display			: block;
+	line-height		: 27px;
+}
+
+#content {
+	display			: block;
+	clear			: both;
+	margin-top		: 20px;
+}

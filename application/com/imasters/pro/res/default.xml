@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pro:resource
+	xmlns:pro="urn:iMasters/pro"
+	id="default">
+	
+	<pro:resource id="SHORT_TITLE" value="MVC" />
+	<pro:resource id="MAIN_TITLE" value="MVC na Prática" />
+	<pro:resource id="ERROR_TITLE" value="Opz, alguma coisa saiu errada" />
+	<pro:resource id="MONEY_FORMAT" value="R$ %.02n" />
+	
+	<!--
+	Dados de conexão com banco de dados MySQL 
+	-->
+	<pro:resource id="MYSQL">
+		<pro:resource id="MYSQL_DSN" value="mysql:host=127.0.0.1;dbname=mvc" />
+		<pro:resource id="MYSQL_USER" value="usuario" />
+		<pro:resource id="MYSQL_PSWD" value="senha" />
+	</pro:resource>
+	
+	<!--
+	Menu da aplicação 
+	-->
+	<pro:resource id="MENU">
+		<pro:resource id="HOME_ITEM" value="Início">
+			<pro:resource id="HOME_LINK" value="/?c=home" />
+		</pro:resource>
+		
+		<pro:resource id="CART_ITEM" value="Carrinho">
+			<pro:resource id="CART_LINK" value="/?c=cart" />
+		</pro:resource>
+	</pro:resource>
+	
+	<!--
+	Home
+	-->
+	<pro:resource id="HOME">
+		<pro:resource id="NO_PRODUCT" value="Nenhum produto encontrado" />
+		<pro:resource id="BUY" value="Comprar" />
+	</pro:resource>
+	
+	<!--
+	Carrinho
+	-->
+	<pro:resource id="CART">
+		<pro:resource id="CART_NO_PRODUCT" value="Seu carrinho está vazio" />
+		<pro:resource id="CART_TOTAL" value="Total" />
+		<pro:resource id="CART_CHECKOUT" value="Finalizar" />
+		<pro:resource id="QUANTITY" value="Quantidade" />
+		<pro:resource id="DELETE" value="Apagar" />
+		<pro:resource id="SAVE" value="Salvar" />
+	</pro:resource>
+</pro:resource>
